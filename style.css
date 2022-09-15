@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{  background-color: rgb(0, 0, 0); }
+
+header
+{
+    background-color: rgb(15, 15, 15);
+    color: #f71e1e;
+    margin: 10px auto;
+    width: 760px;
+    text-align: center;
+    padding: 2%;
+}
+header h1
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div.links-part
+{
+    width: 760px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10%;
+}
+div.links-part a
+{
+    /* max-width: 50%; */
+    background-color: #ff0000;
+    color: #fff;
+    padding: 40px;
+    /* text-decoration: none; */
+    border-radius: 10% 100% 10% 100% / 10% 100% 10% 100% ;
+    display: inline-block;
+    box-shadow: inset 0px 0px 10px rgb(77, 1, 1);
+
+    font-size: 20px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+div.links-part a#link-1
+{ 
+   transform: rotate(160deg);
+   padding: 60px;
+   transform-origin: 52% 88%;
+}
+div.links-part a#link-1:link
+{
+    color: rgb(228, 41, 41);
+    background-color: rgb(77, 38, 38);
+}
+
+div.links-part a#link-2
+{ 
+   transform: rotate(55deg);
+    padding: 60px;
+    transform-origin: 67% 45%;
+}
+div.links-part a#link-2:hover
+{
+    color: rgb(216, 57, 39);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(126, 26, 15);
+    text-decoration: none;
+}
+
+div.links-part a#link-3
+{    
+     transform: rotate(130deg);
+     padding: 60px;
+   transform-origin: 33% 87%;
+   /* transform: translate(50px , 0); */
+}
+div.links-part a#link-3:active
+{
+    color: rgb(216, 57, 39);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(126, 26, 15);
+    text-decoration: none;
+}
+
+div.links-part a#link-4
+{
+    transform: rotate(90deg);
+    transform-origin: 49% 40%;
+    padding: 60px;
+}
+div.links-part a#link-4:focus
+{
+    color: rgb(216, 57, 39);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(126, 26, 15);
+    text-decoration: none;
+}
+/* div.links-part a#link-5{
+   
+    transform: rotate(130deg); 
+   transform-origin: 30% 86%;
+    padding: 60px;
+} */
+div.links-part a#link-5
+{    
+    transform: rotate(190deg); 
+   transform-origin: 58% 43%;
+    padding: 60px;
+}
+div.links-part a#link-5:visited
+{
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+    border: 1px solid rgb(126, 26, 15);
+}
+a p { transform: rotate(-500deg); }
+
+div.circle
+{   
+    background-color: #ff0000;
+    width: 130px;
+    height: 130px;
+    margin: 10px auto;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 10px rgb(77, 1, 1);
+
+}
+
+div.v-line
+{
+    width: 30px;
+    height: 300px;
+    background-color: #0bb313;
+    margin: 0 auto;
+    transform: translateY(-52%);
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 10px rgb(77, 1, 1);
+}
+div.box
+{
+    position: relative;
+
+    width: 300px;
+    height: 300px;
+    background-color: #6e390d;
+    margin: 0 auto;
+    transform: translateY(-72%);
+    border-radius: 20px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: inset 0px 0px 10px rgb(77, 1, 1);
+}
+div.box span
+{
+    text-align: center;
+    color: #1d1107bb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin: 10%;
+    position: absolute;
+        top: 25%;
+        left: 8%;
+}
+div.box:hover
+{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(126, 26, 15);
+
+}
+div.box span:hover
+{
+    color: rgb(216, 57, 39);
+    cursor: pointer;
+}
+div.v2-line
+{
+    width: 400px;
+    height: 3px;
+    background-color: rgb(255, 212, 176);
+    margin: 0 auto;
+    transform: translateY(-7000%);
+    border-radius: 20px;
+}
