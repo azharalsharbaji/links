@@ -180,3 +180,8 @@ div.v2-line
     transform: translateY(-7000%);
     border-radius: 20px;
 }
+p.name
+{
+    color: #fff;
+    transform: translateY(-1000%);
+}
